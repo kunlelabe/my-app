@@ -1,0 +1,11 @@
+services:
+  web:
+    image: <<replace with ecr image uri>>
+    container_name: web
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - DEBUG=1
