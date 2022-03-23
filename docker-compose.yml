@@ -1,6 +1,6 @@
 services:
   web:
-    image: 312103758391.dkr.ecr.us-east-1.amazonaws.com/cventrepo
+    image: 312103758391.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
     container_name: web
     ports:
       - "80:80"
