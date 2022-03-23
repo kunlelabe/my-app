@@ -1,6 +1,6 @@
 services:
   web:
-    image: <<replace with ecr image uri>>
+    image: 312103758391.dkr.ecr.us-east-1.amazonaws.com/cventrepo
     container_name: web
     ports:
       - "80:80"
